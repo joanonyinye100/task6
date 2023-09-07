@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+        <section>
+            <h1>Job Application Form</h1>
+            <form action="" method="get">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Eg Joan Onyinye" required pattern="[a-zA-Z]+\s+[a-zA-Z]+" >
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Eg joanonyinye480@gmail.com" name="email" required pattern="[a-zA-Z0-9]+@[a-zA-Z0-9]+(\.[a-zA-Z0-9]+)">
+                <label for="tel">Phone Number</label>
+                <input type="tel" id="tel" placeholder="080xxxxxxxxx" required name="tel">
+                <label for="file">Resume Upload</label>
+                <input type="file" id="file" required>
+                <label for="JOB">Preferred Job Position</label>
+                <select id="dropdown">
+                    <option value="select">select options below</option>
+                    <option value="Graphic Design">Graphic Design</option>
+                    <option value="UX & UI">UX & UI</option>
+                    <option value="marketer">Frontend developer</option>
+                </select>
+                <label for="textarea">Educational Background</label>
+                <textarea name="textarea" id="textarea" cols="30" rows="5"  placeholder="write something........" required></textarea>
+                <label for="skills">Skills</label>
+                <div>
+                    <input type="checkbox" name="skills" id="skills">
+                    <label for="skilss">Creativity</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="skills" id="skills">
+                    <label for="skills">Data analysis</label>
+                </div>
+                <div>
+                     <input type="checkbox" name="skills" id="skills">
+                    <label for="skills">Problem solving</label>
+                </div>
+                <div>
+                     <input type="checkbox" name="skills" id="skills">
+                    <label for="skills">Writing</label>
+                </div>
+                <label for="year">Years Of Experience</label>
+                <div>
+                   <input type="radio" id="year1" name="year">
+                   <label for="year1">0-2 Years</label>
+                </div>
+                <div>
+                    <input type="radio" id="exp" name="year">
+                    <label for="year2">2-5 Years</label>
+                </div>
+                <div>
+                    <input type="radio" id="exp" name="year">
+                  <label for="year3">5-7 Years</label>
+                </div>
+               <div>
+                   <input type="radio" id="exp" name="year">
+                   <label for="year3">7 years and more</label>
+               </div>
+                <label for="check"> Are You Willing To Relocate</label>
+                <div>
+                   <label for="yes">YES</label>
+                  <input type="radio" id="YES" value=""  name="check" required>
+                </div>
+                <div>
+                   <label for="no">NO</label>
+                   <input type="radio" id="no" name="check" required>
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+</body>
+</html>
