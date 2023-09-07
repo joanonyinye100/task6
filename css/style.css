@@ -12,6 +12,7 @@ body{
     background-attachment: fixed;
     justify-content: center;
     display: flex;
+
 }
 body h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -21,9 +22,9 @@ body h1{
 form{
     display: block;
    justify-content:center ; 
-   width: 100%;
+   width: 600px;
 min-height: 800px;
-   margin: 10px;
+   margin: 3px;
    padding: 5px;
    background-color:#baed55;
    border-radius: 15px;
