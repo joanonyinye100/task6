@@ -14,7 +14,7 @@ body{
     display: flex;
 }
 body h1{
-    font-family: cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 10px;
     text-align: center;
 }
