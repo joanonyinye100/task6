@@ -65,9 +65,11 @@ min-height: 800px;
     font-size: 20px;
     resize: none;
 }
- body form input[submit]{
-    color: #f23838;
+ body form input[type="submit"]{
     cursor: pointer;
-    font-size: medium;
+    font-size: 15PX;
+    width: 100px;
+    border: 3PX solid #6c6cea;
+    margin-left: 50px;
 }
 
